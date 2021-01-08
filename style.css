@@ -17,8 +17,8 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-a,
-button:focus {
+
+a:focus {
   border: 4px solid yellow;
 }
 
@@ -32,7 +32,6 @@ button:focus {
 }
 
 .bloc {
-  width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
   padding: 0 50px;
@@ -658,7 +657,6 @@ a {
 }
 
 .container {
-  max-width: 1000px;
 }
 
 .hero-bloc-text {
@@ -682,7 +680,7 @@ a {
 p {
   /* font-size: 14px;*/
 }
-
+.text-center,
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
